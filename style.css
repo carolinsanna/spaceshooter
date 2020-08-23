@@ -1,0 +1,24 @@
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background-color: darkslategray;
+}
+#main-play-area{
+    background-color: navy;
+    background-image: url(imgs/space.png);
+    height: 700px;
+    width: 600px;
+}
+.playershooter{
+    position: relative;
+    height: 60px;
+    width:70px;
+    left: 500px;
+    top: 250px;
+}
